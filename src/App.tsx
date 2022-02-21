@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import LoginButton from './components/LoginButton';
-import UserStatTable from './components/UserStatTable';
-import CONSTANTS from './constants';
+import LoginButton from '@components/LoginButton';
+import UserStatTable from '@components/UserStatTable';
+import CONSTANTS from '@/constants';
 
 const LOGIN_BUTTON_TEXT: string = 'Login with Discord';
 

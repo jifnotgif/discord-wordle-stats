@@ -1,5 +1,5 @@
 import React from 'react';
-import CONSTANTS from '../constants';
+import CONSTANTS from '@/constants';
 
 type LoginButtonProps = {
     displayText: string;
