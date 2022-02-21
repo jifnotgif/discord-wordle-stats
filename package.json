@@ -21,6 +21,7 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
+    "test-coverage": "craco test --coverage",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -41,5 +42,11 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/enzyme": "^3.10.11",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "jest-watch-typeahead": "^0.6.5"
+  }
 }

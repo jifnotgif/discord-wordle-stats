@@ -15,4 +15,19 @@ module.exports = {
         ...resolvedAliases
     }
   },
+  jest: {
+    configure: {
+        globals: {
+            "CONFIG": true.valueOf,
+            "ts-jest": {
+                diagnostics: false
+              }
+        },
+        moduleNameMapper: {
+            "^@/(.*)$": "<rootDir>/src/$1",
+            "^@components(.*)$": "<rootDir>/src/components$1",
+            "^@utils(.*)$": "<rootDir>/src/utils$1"
+        }
+    }
+  }
 };
